@@ -1,0 +1,36 @@
+
+/*Start BSC Students Details*/
+body{
+    background-color: #a7c5dc;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+h2{
+    text-align: center;
+    font-size: 1em;
+}
+p{
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+   
+   
+}
+/*End BSC Students Details*/

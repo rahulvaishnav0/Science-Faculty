@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Factly Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald&family=Poppins:ital,wght@0,400;0,600;1,300&family=Roboto+Mono&family=Ubuntu+Mono:ital@1&display=swap" rel="stylesheet">
+    
+    <!-- css links -->
+    <link rel="stylesheet" href="./Css_files/index.css">
+    <link rel="stylesheet" href="./Responsive/index-resp.css">
+
+    <!-- cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    
+    <!-- -------======================NavBar-Part Start-------====================== -->   
+    <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+    </div> 
+      
+   
+    <header>         
+        <nav>
+            <div class="logo">
+                <img src="./Images/logo-img-1.png" alt="JNVU">          
+            </div> 
+            
+            <div class="nav-list-package active">                
+                <ul class="nav-list">        
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li>
+                        <a href="#">More</a>
+                        <ul class="dropdown">
+                        <li><a href="#Courses">Courses</a></li>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Team">Team</a></li>  
+                        </ul> 
+                        </li>  
+
+                        <div class="rightNav">
+                
+                            <a href="./Login/Login.html" class="login">Log in</a>
+                        </div>
+                </ul>           
+            </div>
+        </nav>   
+    </header>   
+    
+    <!-- -------======================NavBar-Part End-------====================== -->   
+
+    <!-- -------======================Slider/Home-Part Start-------====================== -->
+    
+    <section>
+        <div class="slider" id="Home">
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Science Faculty Management</h1>
+                    <p> Jai Narain Vyas University, formerly known as University of Jodhpur.</p>
+                </div>
+                <img src="Images/Slider-img1.jpg" class="img1" style="width: 100%; height: 100%; background-position: cover;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>BCA Department</h1>
+                    <p>BCA, which stands for Bachelor of Computer Applications,<br>is a three-year undergraduate course that focuseson Information Technology (IT), <br>Computer Science, and Software Development. </p>
+                </div>
+                <img src="./Images/Slider-img2.jpg" class="img1" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Pharmacy Department</h1>
+                    <p>Pharmacy involves the science and practice of medications,<br> ensuring their safe and effective use. </p>
+                </div>
+                <img src="./Images/Slider-img3.jpg" class="img1" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>BSC Department</h1>
+                    <p>Bachelor of Science (B.Sc) is usually a three-year graduate program in India offered by state and<br> central universities.</p>
+                </div>
+                <img src="./Images/Slider-img4.jpg" class="img1" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Jnvu University</h1>
+                    <p>It was established in the year 1962.<br> This top university in Rajasthan offers UG,<br> PG programs.</p>
+                </div>
+                <img src="./Images/Slider-img5.png" class="img1" style="width: 100%; height: 100%;">
+            </div>
+                       
+            <!-- onclick js -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currenSlide(5)"></span>
+            </div>
+            <!-- /onclick js -->            
+        </div>
+    </section>
+
+    <!-- -------======================Slider/Home-Part End-------====================== -->
+   
+    <!-- -------======================About-Part Start-------====================== -->
+
+
+    <section class="about" id="About">
+        <div class="part">
+    
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout</h2>
+                <p>
+                    Jai Narain Vyas University, formerly known as University of Jodhpur. University of Jodhpur I was Established in 1962, and following four Government Colleges of Jodhpur became part of the University.<br>
+                    This was the only residential University in the State of Rajasthan, catering mainly the needs of students of western Rajasthan (the Marwar). Since, this University is located in the great Indian Thar Desert, its R&D activities centered on heritage, society and challenges of the region. This is the Western most University of the country and imparts education and conducts research in border areas neighboring Pakistan. It is our endeavor to provide education not only to citizens of the Desert/border Districts but also to the wards of Defence/Paramilitary forces and other Organizations which are working in strategically important sectors of the country.
+                </p>
+                
+            </div>
+    
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="./Images/About-img.png" alt="">
+                </div>
+            </div>
+        </div>
+       </section>
+
+    <!-- -------======================About-Part End-------====================== -->
+
+    <!-- -------======================Courses-Part Start-------====================== -->
+   
+    <section class="courses" id="Courses">
+        <div class="title">
+            <h1 class="titleText"><span>C</span>ourses</h1>
+            <p>Computer Science is understanding how and why technologies work.</p>
+        </div>
+        <div class="Super_Box">
+            <div class="inner_box">
+                    <div class="img-Box">
+                        <img src="Images/BCA-img.png" alt="img-1">
+                    </div>
+                    <div class="heading">
+                        <a href="Course-BCA-file/BCA.html" class="btn" style="padding: 0px 34px;">BCA</a>
+                    </div>
+            </div>
+
+            <div class="inner_box">
+                    <div class="img-Box">
+                        <img src="Images/BSC-img.jpg" alt="img-3">
+                    </div>
+                    <div class="heading">
+                        <a href="Course-Bsc-file/Bsc.html" class="btn" style="padding: 0px 34px;">BSC</a>
+                    </div>
+            </div>
+
+            <div class="inner_box">
+                    <div class="img-Box">
+                        <img src="Images/Pharmacy-img.jpg" alt="img-3">
+                    </div>
+                    <div class="heading">
+                        <a href="Course-Pharmacy-file/Pharmacy.html" class="btn" style="padding: 0px 15px;">Pharmacy</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------======================Courses-Part End-------====================== -->
+
+    <!-- -------======================Contact-Part Start-------====================== -->
+
+    <div class="container_form">
+        <img src="img/shape.png" class="square" alt="" />
+
+        <div class="form" id="Contact">
+            <div class="contact-info">
+                <h3 class="title">Let's get started</h3>
+                <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                dolorum adipisci recusandae praesentium dicta!
+                </p>
+    
+                <div class="info">
+                    <div class="information">
+                        <p>Bhagat ki kothi near jnv university </p>
+                    </div>
+
+                    <div class="information">
+                        <p>lorem@ipsum.com</p>
+                    </div>
+
+                    <div class="information">
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+    
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+           
+                    </div>
+                </div>
+            </div>
+  
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+        
+                <form action="index.html" autocomplete="off">
+                    <h3 class="title">
+                        Contact Us
+                    </h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input" />
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn" />
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+   
+
+    <!-- -------======================Contact-Part End-------====================== -->
+
+    <!-- -------======================Team-Part Start-------====================== -->
+
+    <h4 id="Team"><span>T</span>eam</h4>
+    <section class="container">
+        <div class="card">
+            <div class="bg-image">
+                <img src="./Images/Team-background-img-2.jpg" alt="">
+            </div>
+            <div class="pic">
+                <img src="./Images/Team-member-img-1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Aman Gour</h3>
+                <span><i class="fas fa-code"></i> UI/ UX Design</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias tenetur ipsa, voluptatem, magni earum rem laudantium natus quod autem at incidunt amet, quis commodi quam architecto facere temporibus repellat vitae.</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="bg-image">
+                <img src="./Images/Team-background-img-2.jpg" alt="">
+            </div>
+            <div class="pic">
+                <img src="./Images/Team-member-img-1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Rahul Vaishnav</h3>
+                <span><i class="fas fa-code"></i> Frantend Developer</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias tenetur ipsa, voluptatem, magni earum rem laudantium natus quod autem at incidunt amet, quis commodi quam architecto facere temporibus repellat vitae.</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="bg-image">
+                <img src="./Images/Team-background-img-2.jpg" alt="">
+            </div>
+            <div class="pic">
+                <img src="./Images/Team-member-img-1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Sanjay Singh</h3>
+                <span><i class="fas fa-code"></i> DataBase Developer</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias tenetur ipsa, voluptatem, magni earum rem laudantium natus quod autem at incidunt amet, quis commodi quam architecto facere temporibus repellat vitae.</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------======================Team-Part End-------====================== -->
+
+    <!-- -------======================Feature-Part Start-------====================== -->
+
+    <section class="features" id="Features">
+    <div class="divider">
+
+        <div class="col50">
+            <h2 class="titleText"><span>F</span>etures</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem animi, in harum numquam totam quaerat consequatur ex pariatur omnis.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem animi, in harum numquam totam quaerat consequatur ex pariatur omnis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem animi, in harum numquam totam quaerat consequatur ex pariatur omnis.<br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem animi, in harum numquam totam quaerat consequatur ex pariatur omnis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem animi, in harum numquam totam quaerat consequatur ex pariatur omnis</p>
+            <br>
+
+            <a href="./Features/feature.html" class="explore_btn">Explore Now</a>
+        </div>
+
+        <div class="col50">
+            <div class="imgBx">
+                <img src="./Images/Features-img-4.png" alt="">
+            </div>
+        </div>
+    </div>
+   </section>
+
+       
+    <!-- -------======================Feature-Part End-------====================== -->
+
+    <!-- -------======================Footer-Part Start-------====================== -->
+
+    <footer class="footer">
+        <div class="center">
+            <div class="special_row">
+                <div class="footer-col">
+                    <h3>University</h3>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Contact">Contact </a></li>
+                        <li><a href="#Features">Features</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>get help</h3>
+                    <ul>
+                        <li><a href="https://jnvuiums.in/(S(oveqslrc1yuvtproprkmcpzi))/Results/ExamResult.aspx">Result</a></li>
+                        <li><a href="./Course-BCA-file/Director-Details.html">Director</a></li>
+                        <li><a href="./Course-BCA-file/BCA-Admin.html">Admin Panel</a></li>
+                        <li><a href="./Library/library.html">Libray</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/">watch</a></li>
+                        <li><a href="https://best-blogs.com/">blog</a></li>
+                        <li><a href="https://www.dictionary.com/">Dictionary</a></li>
+                        <li><a href="https://www.snapdeal.com/products/books">shopping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>follow us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/jnvugang/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/jnvu_jodhpur_?lang=en"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/apna_jnvu/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/school/jnvu/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+    <!-- -------======================Footer-Part End-------====================== -->
+
+    <!-- -------======================Copyright-Part Start-------====================== -->    
+
+    <h1 class="CopyRight">&#169; www.Jnv University.com 2023 | All Rights Reserved</h1>
+
+    <!-- -------======================Copyright-Part End-------====================== -->   
+   
+
+<!-- All script  Start -->
+
+    <script src="index.js"></script>
+    <script src="index-resp.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- All script End -->
+
+</body>
+</html>
