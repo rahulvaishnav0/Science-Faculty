@@ -1,0 +1,41 @@
+
+/*Start BCA Students Details*/
+body{
+    background-color: #FFCDD2;
+}
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+h2{
+    text-align: center;
+    font-size: 1em;
+    
+}
+p{
+    text-align: center;
+    font-size: 18px;
+  
+}
+section{
+    margin: 0vh 3vw;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: -5.5vh ; */
+   
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+}
+/*End BCA Students Details*/

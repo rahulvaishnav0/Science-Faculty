@@ -1,0 +1,91 @@
+/*Section1 BCA Semester Start*/
+body{
+  background-color: #FF80AB;
+}
+
+.BCA-Semester{
+    /*border: 1px solid black;*/
+    margin: 0vh 0vw;
+    height: 100vh;
+  }
+  
+  .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .titleText{
+    color: black;
+    font-weight: 100;
+  }
+  
+  .BCA-Semester .title .titleText span{
+    color:  #4070f4;;
+    font-size: 3.0rem;
+  }
+  
+  .BCA-Semester .Super_Box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  /*  width: 908px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 7vw;
+  }
+  
+  .BCA-Semester .Super_Box .inner_box{
+   /* width: 250px;
+    margin: 2vh 6vw;*/
+  }
+  
+  .BCA-Semester .Super_Box .inner_box .img-Box{
+    position: relative;
+    /* width: 161%; */
+    height: 270px;
+    width: 270px;
+    margin: 2vh 1vw;
+  }
+  
+  .BCA-Semester .Super_Box .inner_box .img-Box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  .BCA-Semester .Super_Box .inner_box .heading{
+    padding: 15px 2px 5px;
+
+  }
+  
+  .BCA-Semester .Super_Box .inner_box .heading .btn{
+   /* width: 100px;
+    height: 30px;*/
+    margin: 0px 95px;
+    text-align: center;
+    border: 4px solid #FF4081;
+    color: white;
+    background-color:  #FF4081;
+    transition: .5s ease-in-out;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .BCA-Semester .Super_Box .inner_box .heading .btn:hover{
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+/*Section1 BCA Semester End*/
