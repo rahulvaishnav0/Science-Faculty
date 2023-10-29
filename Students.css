@@ -1,0 +1,71 @@
+body{
+    background-color: #96d0e1;
+}
+
+/*Start BCA Students Details*/
+h1{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h2{
+    text-align: center;
+    font-size: 1em;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+section{
+  margin: 0vh 3vw;
+}
+ 
+table{
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*End BCA Students Details*/
+
+@media screen and (max-width:400px){
+    body{
+        overflow-x: hidden;
+    }
+    section{
+    margin: 0vh 2vw;
+    }
+    h1{
+        text-align: center;
+        font-size: 18px;
+        width: 211%;
+    }
+    h2{
+        text-align: center;
+        font-size: 13px;
+        width: 177%;
+        margin: 2vh 15vw;
+    }
+    p{
+        text-align: center;
+        font-size: 17px;
+        width: 218%;
+    }
+    table{
+        margin: 0vh 20vw;
+    }
+}
