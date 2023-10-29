@@ -1,0 +1,91 @@
+
+/*Course Section Will be Start*/
+
+body{
+  background-color: #E5B9A8;
+}
+
+.Bsc{
+    /*border: 1px solid black;*/
+    margin: 40px 50px;
+  }
+  
+  .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .titleText{
+    color: black;
+    font-weight: 100;
+  }
+  
+  .Bsc .title .titleText span{
+    color:  #BD1E51;
+    font-size: 3.0rem;
+  }
+  
+  .Bsc .Super_Box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 908px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2vh 7vw; */
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .Bsc .Super_Box .inner_box{
+    width: 250px;
+    margin: 2vh 6vw;
+  }
+  
+  .Bsc .Super_Box .inner_box .img-Box{
+    position: relative;
+    /* width: 161%; */
+    height: 270px;
+    width: 270px;
+    margin: 2vh 1vw;
+  }
+  
+  .Bsc .Super_Box .inner_box .img-Box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  .Bsc .Super_Box .inner_box .heading{
+    padding: 15px 2px 5px;
+
+  }
+  
+  .Bsc .Super_Box .inner_box .heading .btn{
+    margin: 0px 95px;
+    text-align: center;
+    border: 4px solid #490B3D;
+    color: white;
+    background-color:  #490B3D;
+    transition: .4s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .Bsc .Super_Box .inner_box .heading .btn:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px 20px;
+  }
+
+  /*Course Section Will be End*/

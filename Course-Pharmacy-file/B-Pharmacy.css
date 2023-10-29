@@ -1,0 +1,150 @@
+/*Start B-Pharmacy Department Director Details*/
+
+
+body{
+    background-color: #FDF5DF;
+}
+
+
+.section1-Directore-details{
+    /* border: 1px solid black; */
+    margin: 40px 50px;
+  }
+  h1{
+      text-align: center;
+      margin: 3vh 0vw;
+      text-transform: uppercase;
+      font-family: fangsong;
+  }
+  .p1{
+      text-align: center;
+      font-size: 2em;
+  }
+  .B-Pharmacy-department-img{
+      /* margin: 2vh 34.5vw; */
+      width: 200px;
+      height: 200px;
+      border: 3px solid #fff;
+      border-radius: 3em;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  
+  }   
+  .p2{
+      text-align: center;
+      font-size: 2em;
+  }
+  .p3{
+      text-align: center;
+      font-size: 1.4em;
+  
+  }
+  
+  /*End B-Pharmacy Department Director Details*/
+
+
+  
+  
+/*B-Pharmacy Classes Start*/
+
+
+.B-Pharmacy-Part{
+    /*border: 1px solid black;*/
+    margin: 20vh 3.4vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .titleText{
+    color: black;
+    font-weight: 100;
+  }
+  
+  .B-Pharmacy-Part .title .titleText span{
+    color:  #4070f4;;
+    font-size: 3.0rem;
+  }
+  
+  .B-Pharmacy-Part .Super_Box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  /*  width: 908px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2vh 10vw; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .B-Pharmacy-Part .Super_Box .inner_box{
+   /* width: 250px;
+    margin: 2vh 6vw;*/
+  }
+  
+  .B-Pharmacy-Part .Super_Box .inner_box .img-Box{
+    position: relative;
+    /* width: 161%; */
+    height: 270px;
+    width: 240px;
+    margin: 2vh 1vw;
+  }
+  
+  .B-Pharmacy-Part .Super_Box .inner_box .img-Box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  .B-Pharmacy-Part .Super_Box .inner_box .heading{
+    padding: 15px 2px 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .B-Pharmacy-Part .Super_Box .inner_box .heading .btn{
+   /* width: 100px;
+    height: 30px;*/
+    /* margin: 0px 95px; */
+    text-align: center;
+    border: 4px solid #FECD45;
+    color: white;
+    background-color:  #FECD45;
+    transition: .5s ease-in-out;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    display: flex;
+    border-radius: 30px;
+  }
+  
+  .B-Pharmacy-Part .Super_Box .inner_box .heading .btn:hover{
+    /* border-radius: 30px; */
+    cursor: pointer;
+    background-color: aqua;
+    border: 4px solid aqua;
+    width: 95px;
+   
+
+  }
+
+/*B-Pharmacy Classes End*/
